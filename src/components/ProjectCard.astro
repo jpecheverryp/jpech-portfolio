@@ -1,0 +1,31 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  tech: string[];
+  link: string;
+  status?: string;
+}
+
+const { title, description, tech, link, status } = Astro.props;
+---
+
+<a
+  href={link}
+  class="block border border-neutral-200 rounded-lg p-6 hover:border-neutral-400 transition-colors duration-200"
+>
+  <div class="flex items-start justify-between mb-3">
+    <h3 class="font-semibold text-neutral-900">{title}</h3>
+    {status && (
+      <span class="text-xs font-mono text-neutral-400 ml-2 shrink-0">{status}</span>
+    )}
+  </div>
+  <p class="text-sm text-neutral-500 leading-relaxed mb-4">{description}</p>
+  <div class="flex flex-wrap gap-2">
+    {tech.map((t) => (
+      <span class="text-xs font-mono bg-neutral-100 text-neutral-500 px-2 py-1 rounded">
+        {t}
+      </span>
+    ))}
+  </div>
+</a>
