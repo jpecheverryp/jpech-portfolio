@@ -15,7 +15,7 @@
 - [x] Add canonical URL tag
 - [ ] Create og:image (social media preview image)
 - [x] Add /public/robots.txt
-- [ ] Add sitemap (via @astrojs/sitemap integration)
+- [x] Add sitemap (via @astrojs/sitemap integration)
 
 ### Accessibility & Polish
 - [x] Add skip-to-main-content link
