@@ -12,7 +12,7 @@
 ### SEO & Discovery
 - [ ] Add Open Graph meta tags (og:title, og:description, og:image, og:url)
 - [ ] Add Twitter Card meta tags
-- [ ] Add canonical URL tag
+- [x] Add canonical URL tag
 - [ ] Create og:image (social media preview image)
 - [ ] Add /public/robots.txt
 - [ ] Add sitemap (via @astrojs/sitemap integration)
