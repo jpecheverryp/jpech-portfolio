@@ -3,6 +3,13 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
+	<a
+		href='#main-content'
+		class='fixed top-0 left-4 z-50 px-4 py-2 bg-white text-neutral-900 border border-neutral-400 rounded text-sm font-mono -translate-y-full focus:translate-y-4 transition-transform duration-200'
+	>
+		Skip to main content
+	</a>
+
 	<!-- Nav -->
 	<nav
 		class='fixed top-0 left-0 right-0 z-10 border-b border-neutral-200/70 bg-white/80 backdrop-blur-sm'
@@ -27,7 +34,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</nav>
 
-	<main class='max-w-3xl mx-auto px-6'>
+	<main id='main-content' class='max-w-3xl mx-auto px-6'>
 		<!-- Hero -->
 		<section class='pt-40 pb-24'>
 			<p class='font-mono text-sm text-neutral-400 mb-4'>hey, I'm</p>

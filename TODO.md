@@ -18,7 +18,7 @@
 - [ ] Add sitemap (via @astrojs/sitemap integration)
 
 ### Accessibility & Polish
-- [ ] Add skip-to-main-content link
+- [x] Add skip-to-main-content link
 - [ ] Add aria-label to the "jpe" hero link
 - [ ] Add aria-current="page" to active nav links
 - [ ] Verify color contrast meets WCAG AA (especially text-neutral-400)
