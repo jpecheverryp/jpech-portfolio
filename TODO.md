@@ -18,7 +18,6 @@
 ### Accessibility & Polish
 - [x] Add skip-to-main-content link
 - [x] Add aria-label to the "jpe" hero link
-- [x] Add aria-current="page" to active nav links
 - [x] Verify color contrast meets WCAG AA (especially text-neutral-400)
 - [x] Create custom 404 page (src/pages/404.astro)
 
