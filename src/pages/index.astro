@@ -18,10 +18,10 @@ import Layout from '../layouts/Layout.astro';
 			<a
 				href='#'
 				aria-label='Juan P Echeverry — home'
-				class='font-mono text-sm text-neutral-400 hover:text-neutral-900 transition-colors'
+				class='font-mono text-sm text-neutral-500 hover:text-neutral-900 transition-colors'
 				>jpe</a
 			>
-			<div class='flex gap-6 text-sm text-neutral-400'>
+			<div class='flex gap-6 text-sm text-neutral-500'>
 <a href='#about' class='hover:text-neutral-900 transition-colors'
 					>about</a
 				>
@@ -38,7 +38,7 @@ import Layout from '../layouts/Layout.astro';
 	<main id='main-content' class='max-w-3xl mx-auto px-6'>
 		<!-- Hero -->
 		<section class='pt-40 pb-24'>
-			<p class='font-mono text-sm text-neutral-400 mb-4'>hey, I'm</p>
+			<p class='font-mono text-sm text-neutral-500 mb-4'>hey, I'm</p>
 			<h1 class='text-5xl font-bold text-neutral-900 mb-4 tracking-tight'>
 				Juan P Echeverry
 			</h1>
@@ -67,7 +67,7 @@ import Layout from '../layouts/Layout.astro';
 
 		<!-- About -->
 		<section id='about' class='py-16 border-t border-neutral-200'>
-			<h2 class='font-mono text-sm text-neutral-400 mb-8'>about</h2>
+			<h2 class='font-mono text-sm text-neutral-500 mb-8'>about</h2>
 			<p class='text-neutral-500 leading-relaxed max-w-xl'>
 				I'm a software developer based in ATL, GA. I enjoy building clean, fast,
 				and useful things on the web, from backend systems to user-facing
@@ -77,7 +77,7 @@ import Layout from '../layouts/Layout.astro';
 
 		<!-- Skills -->
 		<section id='skills' class='py-16 border-t border-neutral-200'>
-			<h2 class='font-mono text-sm text-neutral-400 mb-8'>skills</h2>
+			<h2 class='font-mono text-sm text-neutral-500 mb-8'>skills</h2>
 			<div class='flex flex-col gap-4'>
 				{
 					[
@@ -91,12 +91,12 @@ import Layout from '../layouts/Layout.astro';
 						{ category: 'Tools', items: ['Git', 'Linux'] },
 					].map(({ category, items }) => (
 						<div class='flex items-start gap-6'>
-							<span class='font-mono text-xs text-neutral-400 w-24 shrink-0 pt-1'>
+							<span class='font-mono text-xs text-neutral-500 w-24 shrink-0 pt-1'>
 								{category}
 							</span>
 							<div class='flex flex-wrap gap-2'>
 								{items.map((item) => (
-									<span class='text-xs font-mono bg-neutral-100 text-neutral-500 px-2 py-1 rounded'>
+									<span class='text-xs font-mono bg-neutral-100 text-neutral-600 px-2 py-1 rounded'>
 										{item}
 									</span>
 								))}
@@ -109,7 +109,7 @@ import Layout from '../layouts/Layout.astro';
 
 		<!-- Contact -->
 		<section id='contact' class='py-16 border-t border-neutral-200'>
-			<h2 class='font-mono text-sm text-neutral-400 mb-8'>contact</h2>
+			<h2 class='font-mono text-sm text-neutral-500 mb-8'>contact</h2>
 			<p class='text-neutral-500 text-sm mb-6'>
 				Open to new opportunities and interesting projects. Feel free to reach
 				out.
@@ -142,7 +142,7 @@ import Layout from '../layouts/Layout.astro';
 
 		<!-- Footer -->
 		<footer class='py-8 border-t border-neutral-200'>
-			<p class='text-xs font-mono text-neutral-400'>© {new Date().getFullYear()} Juan P Echeverry</p>
+			<p class='text-xs font-mono text-neutral-500'>© {new Date().getFullYear()} Juan P Echeverry</p>
 		</footer>
 	</main>
 </Layout>
