@@ -3,10 +3,9 @@
 ## Portfolio
 
 ### Content
-- [ ] Add projects section
 - [ ] Expand About section — add personal story, background, areas of expertise
 - [ ] Add Work Experience / Timeline section
-- [ ] Add Skills / Technologies section
+- [x] Add Skills / Technologies section
 - [ ] Add resume PDF and download link in Contact section
 - [ ] Update footer copyright to be dynamic (not hardcoded year)
 
