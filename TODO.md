@@ -7,7 +7,7 @@
 - [ ] Add Work Experience / Timeline section
 - [x] Add Skills / Technologies section
 - [ ] Add resume PDF and download link in Contact section
-- [ ] Update footer copyright to be dynamic (not hardcoded year)
+- [x] Update footer copyright to be dynamic (not hardcoded year)
 
 ### SEO & Discovery
 - [ ] Add Open Graph meta tags (og:title, og:description, og:image, og:url)
