@@ -14,7 +14,7 @@
 - [ ] Add Twitter Card meta tags
 - [x] Add canonical URL tag
 - [ ] Create og:image (social media preview image)
-- [ ] Add /public/robots.txt
+- [x] Add /public/robots.txt
 - [ ] Add sitemap (via @astrojs/sitemap integration)
 
 ### Accessibility & Polish
