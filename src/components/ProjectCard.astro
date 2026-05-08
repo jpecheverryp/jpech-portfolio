@@ -3,15 +3,15 @@ interface Props {
   title: string;
   description: string;
   tech: string[];
-  link: string;
+  slug: string;
   status?: string;
 }
 
-const { title, description, tech, link, status } = Astro.props;
+const { title, description, tech, slug, status } = Astro.props;
 ---
 
 <a
-  href={link}
+  href={`/projects/${slug}`}
   class="block border border-neutral-200 rounded-lg p-6 hover:border-neutral-400 transition-colors duration-200"
 >
   <div class="flex items-start justify-between mb-3">
