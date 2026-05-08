@@ -8,6 +8,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: 'https://jpech.dev',
   integrations: [sitemap()],
+  // /github and /linkedin are vanity shortcuts — update these if the URLs change
   redirects: {
     "/github": "https://github.com/jpecheverryp",
     "/linkedin": "https://www.linkedin.com/in/jpechdev/",

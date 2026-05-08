@@ -26,7 +26,7 @@
 ### Dev & Config
 - [ ] Add ESLint + Prettier
 - [ ] Add Tailwind config file for theme customization
-- [ ] Document the /github and /linkedin redirect shortcuts somewhere visible
+- [x] Document the /github and /linkedin redirect shortcuts somewhere visible
 
 ## GitHub
 
