@@ -1,11 +1,15 @@
 # jpech-portfolio
 
-Personal portfolio site built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com).
+Personal portfolio site at [jpech.dev](https://jpech.dev), built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com).
 
 ## Stack
 
-- **Astro** — static site framework
+- **Astro 6** — static site framework with sitemap integration
 - **Tailwind CSS v4** — utility-first styling via `@tailwindcss/vite`
+
+## Requirements
+
+- Node.js `>=22.12.0`
 
 ## Project Structure
 
@@ -13,13 +17,26 @@ Personal portfolio site built with [Astro](https://astro.build) and [Tailwind CS
 src/
 ├── components/
 │   └── ProjectCard.astro
+├── data/
+│   └── projects.ts
 ├── layouts/
 │   └── Layout.astro
 ├── pages/
-│   └── index.astro
+│   ├── 404.astro
+│   ├── index.astro
+│   └── projects/
+│       ├── index.astro
+│       └── [slug].astro
 └── styles/
     └── global.css
 ```
+
+## Redirects
+
+| Path        | Destination                                  |
+| :---------- | :------------------------------------------- |
+| `/github`   | https://github.com/jpecheverryp             |
+| `/linkedin` | https://www.linkedin.com/in/jpechdev/        |
 
 ## Commands
 
