@@ -10,7 +10,7 @@
 - [x] Update footer copyright to be dynamic (not hardcoded year)
 
 ### SEO & Discovery
-- [ ] Add Open Graph meta tags (og:title, og:description, og:image, og:url)
+- [x] Add Open Graph meta tags (og:title, og:description, og:image, og:url)
 - [x] Add canonical URL tag
 - [x] Add /public/robots.txt
 - [x] Add sitemap (via @astrojs/sitemap integration)
