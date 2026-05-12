@@ -130,13 +130,14 @@ import { featuredProjects } from '../data/projects';
 				{
 					[
 						{ category: 'Languages', items: ['Go', 'TypeScript'] },
-						{ category: 'Frontend', items: ['Astro', 'TailwindCSS', 'HTMX'] },
+						{ category: 'Backend', items: ['Node', 'REST', 'JWT'] },
+						{ category: 'Databases', items: ['PostgreSQL', 'MySQL', 'SQLite'] },
 						{
-							category: 'Backend',
-							items: ['Node', 'PostgreSQL', 'MySQL', 'SQLite', 'Docker'],
+							category: 'Cloud & Infrastructure',
+							items: ['AWS', 'Azure', 'Digital Ocean', 'Docker'],
 						},
-						{ category: 'Cloud', items: ['Azure', 'AWS', 'Digital Ocean'] },
-						{ category: 'Tools', items: ['Git', 'Linux'] },
+						{ category: 'Tools', items: ['Git', 'Linux', 'Bash'] },
+						{ category: 'Frontend', items: ['Astro', 'TailwindCSS', 'HTMX'] },
 					].map(({ category, items }) => (
 						<div class='flex items-start gap-6'>
 							<span class='font-mono text-xs text-neutral-500 w-24 shrink-0 pt-1'>
