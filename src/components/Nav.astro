@@ -1,6 +1,6 @@
 ---
 interface Props {
-	active?: 'about' | 'skills' | 'projects' | 'contact';
+	active?: 'about' | 'projects' | 'contact';
 }
 
 const { active } = Astro.props;
@@ -10,7 +10,6 @@ const activeClass = 'text-neutral-900';
 
 const links = [
 	{ label: 'about', href: '/#about' },
-	{ label: 'skills', href: '/#skills' },
 	{ label: 'projects', href: '/#projects' },
 	{ label: 'contact', href: '/#contact' },
 ];
