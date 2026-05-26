@@ -23,7 +23,7 @@ import { featuredProjects } from '../data/projects';
 				Juan P Echeverry
 			</h1>
 			<p class='text-xl text-neutral-500 mb-10 max-w-xl leading-relaxed'>
-				Backend developer. Go, Postgres, and Docker
+				IT Support Specialist who builds. Go, Postgres, and Docker.
 			</p>
 			<div class='flex gap-3'>
 				<a
@@ -49,11 +49,12 @@ import { featuredProjects } from '../data/projects';
 		<section id='about' class='py-16 border-t border-neutral-200'>
 			<h2 class='font-mono text-sm text-neutral-500 mb-8'>about</h2>
 			<p class='text-sm text-neutral-500 leading-relaxed max-w-xl'>
-				I'm Juan P, a backend developer in Atlanta. I build APIs and the systems
-				behind them with Go, Postgres, and Docker, and I care about clean code
-				that solves real problems. Comfortable owning a service from schema to
-				deploy. Bilingual in English and Spanish. If you've got an interesting
-				problem, I'd love to hear about it.
+				I'm Juan P, an IT Support Specialist in Atlanta with a developer's edge.
+				My day job covers end-user support, systems administration, networking,
+				and ERP/WMS at a food distribution company. Outside of that, I build
+				backend services with Go, Postgres, and Docker. Bilingual in English and
+				Spanish. If you've got an interesting problem, I'd love to hear about
+				it.
 			</p>
 		</section>
 
@@ -88,14 +89,24 @@ import { featuredProjects } from '../data/projects';
 			<div class='flex flex-col gap-4'>
 				{
 					[
-						{ category: 'Languages', items: ['Go', 'TypeScript'] },
+						{
+							category: 'IT & Systems',
+							items: [
+								'Active Directory',
+								'Office 365',
+								'Windows',
+								'Helpdesk',
+								'Networking',
+							],
+						},
+						{ category: 'Languages', items: ['Go', 'TypeScript', 'Bash'] },
 						{ category: 'Backend', items: ['Node', 'REST'] },
 						{ category: 'Databases', items: ['PostgreSQL', 'MySQL', 'SQLite'] },
 						{
 							category: 'Cloud & Infrastructure',
 							items: ['AWS', 'Azure', 'Digital Ocean', 'Docker'],
 						},
-						{ category: 'Tools', items: ['Git', 'Linux', 'Bash'] },
+						{ category: 'Tools', items: ['Git', 'Linux'] },
 						{ category: 'Frontend', items: ['Astro', 'TailwindCSS', 'HTMX'] },
 					].map(({ category, items }) => (
 						<div class='flex items-start gap-6'>
